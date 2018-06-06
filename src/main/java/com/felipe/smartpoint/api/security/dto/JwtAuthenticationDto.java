@@ -7,7 +7,7 @@ public class JwtAuthenticationDto {
 	
 	private String email;
 	private String senha;
-	private String grand_type;
+	private String grand_type = "client_credentials";
 
 	public JwtAuthenticationDto() {
 	}
@@ -34,7 +34,7 @@ public class JwtAuthenticationDto {
 
 	@NotEmpty(message = "E necessario um granty type ")
 	public String getGrand_type() {
-		return grand_type;
+		return grand_type.equals("client_credentials") ? grand_type : null;
 	}
 
 	public void setGrand_type(String grand_type) {
