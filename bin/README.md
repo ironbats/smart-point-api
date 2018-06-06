@@ -1,8 +1,7 @@
-[![Build Status](https://travis-ci.org/themarkiron23/smart-point-api?branch=master)](https://travis-ci.org/themarkiron23/smart-point-api)
-# Smart Point 
-API com spring boot e java 8.
+[![Build Status](https://travis-ci.org/m4rciosouza/ponto-inteligente-api.svg?branch=master)](https://travis-ci.org/m4rciosouza/ponto-inteligente-api)
+# Ponto Inteligente
+API do sistema de ponto inteligente com Java e Spring Boot.
 ### Detalhes da API RESTful
-
 A API RESTful de Ponto Inteligente contém as seguintes características:  
 * Projeto criado com Spring Boot e Java 8
 * Banco de dados MySQL com JPA e Spring Data JPA
@@ -11,11 +10,10 @@ A API RESTful de Ponto Inteligente contém as seguintes características:
 * Testes unitários e de integração com JUnit e Mockito
 * Caching com EhCache
 * Integração contínua com TravisCI
-
 ### Como executar a aplicação
 Certifique-se de ter o Maven instalado e adicionado ao PATH de seu sistema operacional, assim como o Git.
 ```
-git clone https://github.com/themarkiron23/smart-point-api
+git clone https://github.com/m4rciosouza/ponto-inteligente-api.git
 cd ponto-inteligente-api
 mvn spring-boot:run
 Acesse os endpoints através da url http://localhost:8080
